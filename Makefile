@@ -5,6 +5,7 @@ brain-games:
 	poetry run brain-games
 
 build:
+	rm -rf dist
 	poetry build
 
 publish:
@@ -12,3 +13,6 @@ publish:
 
 package-install:
 	python -m pip install --user dist/*.whl
+
+lint:
+	poetry run flake8 brain_games
