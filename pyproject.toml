@@ -16,7 +16,7 @@ brain-progression = "brain_games.scripts.progression:main"
 brain-prime = "brain_games.scripts.prime:main"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8,<4.0"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
